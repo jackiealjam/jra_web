@@ -165,25 +165,25 @@ p.ex1 {
 }
 
 a:link {
-  color: #665200;
+  color: #ffcc00;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color: #665200;
+  color: #ffcc00;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: yellow;
+  color: #ffcc00;
   background-color: transparent;
   text-decoration: underline;
 }
 
 a:active {
-  color: red;
+  color: #ffcc00;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -194,12 +194,12 @@ a:active {
   grid-gap: 10px;
   background-color: black;
   opacity: 0.8;
-  padding: 10px;
+  padding: 5px;
 }
 
 .grid-container > div {
-  background-color: #665200;
-  opacity: 0.5;
+  background-color: #e6b800;
+  /* opacity: 0.5; */
   text-align: center;
   padding: 20px 0;
   font-size: 20px;
