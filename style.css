@@ -231,3 +231,14 @@ a:active {
   width: 100px;
   height: 100px;
 }
+
+.img5 {
+  background-color: black;
+  opacity: 0.8;
+  border: 1px solid #665200;
+  padding-left: 100px;
+  padding-top: 100px;
+  margin-left: 25%;
+  width: 600px;
+  height: 800px;
+}
