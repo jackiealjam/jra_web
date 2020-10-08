@@ -57,6 +57,7 @@ p {
   opacity: 0.8;
   /* background-image: url("img/fancy-cushion (Custom) (Large).png"); */
   color: white;
+  display: table-cell;
 }
 
 .column1 {
@@ -67,6 +68,7 @@ p {
   opacity: 0.8;
   /* background-image: url("img/fancy-cushion (Custom) (Large).png"); */
   color: white;
+  display: table-cell;
 }
 
 .row:after {
@@ -219,19 +221,6 @@ a:active {
 }
 
 
-.img-magnifier-container {
-  position:relative;
-}
-
-.img-magnifier-glass {
-  position: absolute;
-  border: 3px solid #000;
-  border-radius: 50%;
-  cursor: none;
-  width: 100px;
-  height: 100px;
-}
-
 .img5 {
   background-color: black;
   opacity: 0.8;
@@ -287,4 +276,38 @@ h1, h2 {
   background-color: #ffcc00;
   color: black;
   transform: rotateY(180deg);
+}
+
+.callout {
+  position: fixed;
+  bottom: 35px;
+  right: 20px;
+  margin-left: 20px;
+  max-width: 300px;
+}
+
+.callout-header {
+  padding: 25px 15px;
+  background: #555;
+  font-size: 30px;
+  color: white;
+}
+
+.callout-container {
+  padding: 15px;
+  background-color: #ccc;
+  color: black;
+}
+
+.closebtn {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.closebtn:hover {
+  color: lightgrey;
 }
