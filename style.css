@@ -311,3 +311,9 @@ h1, h2 {
 .closebtn:hover {
   color: lightgrey;
 }
+
+.resume {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
